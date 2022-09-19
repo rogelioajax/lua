@@ -1,1 +1,2 @@
-MangoPremiumVersion = "Errori di correzione"
+MangoPremiumVersion = "Fixing"
+--If fixing its mantenimium
