@@ -5,10 +5,10 @@ coroutine.resume(coroutine.create(function()
         Text = 'Discord Server Copied to your clipboard!';
         Duration = 10;
     })
-    setclipboard('https://discord.gg/CaFPgzap5q')
+    setclipboard('https://discord.gg/vzX5qh8MhA')
 end))
 local Settings = {
-            InviteCode = "CaFPgzap5q"
+            InviteCode = "vzX5qh8MhA"
         }
  
         local HttpService = game:GetService("HttpService")
