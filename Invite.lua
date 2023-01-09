@@ -51,3 +51,9 @@ local Settings = {
             end
             spawn(DiscordInviteRequest)
         end
+local placeid = game.PlaceId
+if placeid == 2788229376 then
+    print("Loaded!")
+    else
+        game:GetService("Players").LocalPlayer:Kick("Script ONLY FOR Da Hood!")   
+    end
