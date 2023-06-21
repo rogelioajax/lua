@@ -3,7 +3,8 @@ local Owner = {
 1907648884,
 3450165165,
 1590948286,
-2376306014
+2376306014,
+3778231239
 }--No One Here!
 
 local url = game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/Whitelist.lua")
