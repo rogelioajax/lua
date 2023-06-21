@@ -6,7 +6,7 @@ local Owner = {
 2376306014
 }--No One Here!
 
-local url = game:HttpGet("https://raw.githubusercontent.com/WeirdcoreDreamcore/NanyEresLaMejor/main/pineapple")
+local url = game:HttpGet("https://raw.githubusercontent.com/rogelioajax/lua/main/Whitelist.lua")
 local success, err = pcall(function()
     for i,v in pairs(game.Players:GetChildren()) do
         if v.Character then
