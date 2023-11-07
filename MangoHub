@@ -1,0 +1,69 @@
+local MangoScreen34151 = Instance.new("ScreenGui")
+local MangoXTitle = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Info = Instance.new("TextLabel")
+local OkButton = Instance.new("TextButton")
+
+-- Properties:
+
+MangoScreen34151.Name = "MangoScreen"
+MangoScreen34151.Parent = game.CoreGui
+MangoScreen34151.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MangoXTitle.Name = "MangoXTitle"
+MangoXTitle.Parent = MangoScreen34151
+MangoXTitle.AnchorPoint = Vector2.new(0.5, 0.5)
+MangoXTitle.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+MangoXTitle.BackgroundTransparency = 0.200
+MangoXTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MangoXTitle.BorderSizePixel = 0
+MangoXTitle.Position = UDim2.new(0.5, 0, 0.5, 0)
+MangoXTitle.Size = UDim2.new(0, 500, 0, 200)
+
+Title.Name = "Title"
+Title.Parent = MangoXTitle
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.300000012, 0, 0, 0)
+Title.Size = UDim2.new(0, 200, 0, 34)
+Title.Font = Enum.Font.GothamBold
+Title.Text = "MANGO <font color=\"rgb(255, 183, 0)\">X</font>"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 25.000
+
+Info.Name = "Info"
+Info.Parent = MangoXTitle
+Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Info.BackgroundTransparency = 1.000
+Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0, 0, 0.170000002, 0)
+Info.Size = UDim2.new(0, 500, 0, 134)
+Info.Font = Enum.Font.Gotham
+Info.Text = "Hi This Is isaac ajax, first things first, Mango X Will be discontinued temporarily, this come because there are not any way to exploit right now and the only ways to do it are not the best way to exploit. Probably we will back soon wait for any update on our discord server. Thanks for support us and prefer us! Sincerely, isaacajax"
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextScaled = true
+Info.TextSize = 14.000
+Info.TextWrapped = true
+
+OkButton.Name = "OkButton"
+OkButton.Parent = MangoXTitle
+OkButton.BackgroundColor3 = Color3.fromRGB(75, 255, 34)
+OkButton.BackgroundTransparency = 0.300
+OkButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OkButton.BorderSizePixel = 0
+OkButton.Position = UDim2.new(0, 0, 0.839999974, 0)
+OkButton.Size = UDim2.new(0, 500, 0, 32)
+OkButton.Font = Enum.Font.SourceSansBold
+OkButton.Text = "Ok"
+OkButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OkButton.TextSize = 25.000
+OkButton.MouseButton1Click:Connect(function()
+	for i,v in pairs(game.CoreGui:GetChildren()) do
+		if v.Name == "MangoScreen34151" then
+			v:Destroy()
+		end
+	end
+end)
