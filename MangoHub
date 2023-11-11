@@ -46,6 +46,7 @@ Info.Text = "Hi This Is isaac ajax, first things first, Mango X Will be disconti
 Info.TextColor3 = Color3.fromRGB(255, 255, 255)
 Info.TextScaled = true
 Info.TextSize = 14.000
+Info.RichText = true
 Info.TextWrapped = true
 
 OkButton.Name = "OkButton"
