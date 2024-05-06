@@ -1,70 +1,123 @@
-local MangoScreen34151 = Instance.new("ScreenGui")
-local MangoXTitle = Instance.new("Frame")
-local Title = Instance.new("TextLabel")
-local Info = Instance.new("TextLabel")
-local OkButton = Instance.new("TextButton")
+for i,v in pairs(game.CoreGui:GetChildren()) do
+	if v.Name == "MangoScreenGui" then
+		v:Destroy()
+	end
+end
+local MangoScreenGui = Instance.new("ScreenGui")
+local MangoFrame = Instance.new("Frame")
+local WelcomeTitle = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local InformationTitle = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIStroke = Instance.new("UIStroke")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
 
 -- Properties:
 
-MangoScreen34151.Name = "MangoScreen"
-MangoScreen34151.Parent = game.CoreGui
-MangoScreen34151.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+MangoScreenGui.Name = "MangoScreenGui"
+MangoScreenGui.Parent = game.CoreGui
+MangoScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-MangoXTitle.Name = "MangoXTitle"
-MangoXTitle.Parent = MangoScreen34151
-MangoXTitle.AnchorPoint = Vector2.new(0.5, 0.5)
-MangoXTitle.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
-MangoXTitle.BackgroundTransparency = 0.200
-MangoXTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MangoXTitle.BorderSizePixel = 0
-MangoXTitle.Position = UDim2.new(0.5, 0, 0.5, 0)
-MangoXTitle.Size = UDim2.new(0, 500, 0, 200)
+MangoFrame.Name = "MangoFrame"
+MangoFrame.Parent = MangoScreenGui
+MangoFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MangoFrame.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+MangoFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MangoFrame.BorderSizePixel = 0
+MangoFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+MangoFrame.Size = UDim2.new(0, 500, 0, 300)
 
-Title.Name = "Title"
-Title.Parent = MangoXTitle
-Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title.BackgroundTransparency = 1.000
-Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Title.BorderSizePixel = 0
-Title.Position = UDim2.new(0.300000012, 0, 0, 0)
-Title.Size = UDim2.new(0, 200, 0, 34)
-Title.Font = Enum.Font.GothamBold
-Title.Text = "MANGO <font color=\"rgb(255, 183, 0)\">X</font>"
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title.TextSize = 25.000
+WelcomeTitle.Name = "WelcomeTitle"
+WelcomeTitle.Parent = MangoFrame
+WelcomeTitle.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+WelcomeTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+WelcomeTitle.BorderSizePixel = 0
+WelcomeTitle.Size = UDim2.new(0, 500, 0, 50)
+WelcomeTitle.Font = Enum.Font.GothamBold
+WelcomeTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+WelcomeTitle.TextScaled = true
+WelcomeTitle.TextSize = 22.000
+WelcomeTitle.TextWrapped = true
 
-Info.Name = "Info"
-Info.Parent = MangoXTitle
-Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Info.BackgroundTransparency = 1.000
-Info.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Info.BorderSizePixel = 0
-Info.Position = UDim2.new(0, 0, 0.170000002, 0)
-Info.Size = UDim2.new(0, 500, 0, 134)
-Info.Font = Enum.Font.Gotham
-Info.Text = "Hi This Is isaac ajax, first things first, Mango X Will be discontinued temporarily, this come because there are not any way to exploit right now and the only ways to do it are not the best way to exploit. Probably we will back soon wait for any update on our discord server. Thanks for support us and prefer us! Sincerely, isaacajax"
-Info.TextColor3 = Color3.fromRGB(255, 255, 255)
-Info.TextScaled = true
-Info.TextSize = 14.000
-Info.RichText = true
-Info.TextWrapped = true
+UITextSizeConstraint.Parent = WelcomeTitle
+UITextSizeConstraint.MaxTextSize = 22
 
-OkButton.Name = "OkButton"
-OkButton.Parent = MangoXTitle
-OkButton.BackgroundColor3 = Color3.fromRGB(75, 255, 34)
-OkButton.BackgroundTransparency = 0.300
-OkButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-OkButton.BorderSizePixel = 0
-OkButton.Position = UDim2.new(0, 0, 0.839999974, 0)
-OkButton.Size = UDim2.new(0, 500, 0, 32)
-OkButton.Font = Enum.Font.SourceSansBold
-OkButton.Text = "Ok"
-OkButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-OkButton.TextSize = 25.000
-OkButton.MouseButton1Click:Connect(function()
+InformationTitle.Name = "InformationTitle"
+InformationTitle.Parent = MangoFrame
+InformationTitle.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
+InformationTitle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InformationTitle.BorderSizePixel = 0
+InformationTitle.Position = UDim2.new(0, 0, 0.166666672, 0)
+InformationTitle.Size = UDim2.new(0, 500, 0, 181)
+InformationTitle.Font = Enum.Font.GothamBold
+InformationTitle.Text = ""
+InformationTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+InformationTitle.TextScaled = true
+InformationTitle.TextSize = 18.000
+InformationTitle.TextWrapped = true
+InformationTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+UITextSizeConstraint_2.Parent = InformationTitle
+
+TextButton.Parent = MangoFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 53, 56)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.300000012, 0, 0.796666682, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.ArialBold
+TextButton.Text = "Close"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 25.000
+TextButton.TextWrapped = true
+TextButton.Visible = false
+TextButton.MouseButton1Click:Connect(function()
 	for i,v in pairs(game.CoreGui:GetChildren()) do
-		if v.Name == "MangoScreen34151" then
+		if v.Name == "MangoScreenGui" then
 			v:Destroy()
 		end
 	end
 end)
+
+UICorner.CornerRadius = UDim.new(0, 100)
+UICorner.Parent = TextButton
+
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke.Color = Color3.fromRGB(255, 255, 255)
+UIStroke.Thickness = 3
+UIStroke.Parent = TextButton
+
+UITextSizeConstraint_3.Parent = TextButton
+UITextSizeConstraint_3.MaxTextSize = 25
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local function showWelcomeMessage()
+
+	local message = "Hey There! Welcome back " .. player.DisplayName
+	local function typeWriter(text, delay)
+		WelcomeTitle.Text = ""
+		for i = 1, #text do
+			WelcomeTitle.Text = WelcomeTitle.Text .. string.sub(text, i, i)
+			wait(delay)
+		end
+	end
+	typeWriter(message, 0.1)
+end
+showWelcomeMessage()
+wait(3)
+local function showInfoMessage()
+
+	local message = "This is Isaac, the creator of MANGO. Due to the upcoming numerous ways to exploit, we have decided to return! We will be working hard and smart to achieve our goal, our script has gone through a lot, and today more than ever, we need your patience to achieve great things. MANGO will be updated like never before!"
+	local function typeWriter(text, delay)
+		InformationTitle.Text = ""
+		for i = 1, #text do
+			InformationTitle.Text = InformationTitle.Text .. string.sub(text, i, i)
+			wait(delay)
+		end
+	end
+	typeWriter(message, 0.1)
+end
+showInfoMessage()
+TextButton.Visible = true
