@@ -3,7 +3,7 @@ return {
     version = "2.8.9",
     exploit = "identifyexecutor()",
     ranks = {
-        ["123456789"] = "Owner",
+        ["8171996710"] = "Owner", -- A nigger
         ["987654321"] = "Admin",
         ["112233445"] = "Moderator"
     }
