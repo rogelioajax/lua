@@ -1,0 +1,10 @@
+return {
+    date = "2025-03-22",
+    version = "2.8.9",
+    exploit = "identifyexecutor()",
+    ranks = {
+        ["123456789"] = "Owner",
+        ["987654321"] = "Admin",
+        ["112233445"] = "Moderator"
+    }
+}
