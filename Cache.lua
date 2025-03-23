@@ -4,7 +4,7 @@ return {
     exploit = "identifyexecutor()",
     ranks = {
         ["8171996710"] = "Owner", -- A nigger
-        ["987654321"] = "Admin",
+        ["987654321"] = "Admin", --Idk
         ["112233445"] = "Moderator"
     }
 }
