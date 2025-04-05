@@ -1,6 +1,6 @@
 return {
     version = "2.9",
     ranks = {
-        ["3772307869"] = "[🔥] nigga"
+        ["3772307869"] = "[🔥] te extraño"
     }
 }
