@@ -1,5 +1,5 @@
 return {
-	version = "1.2",
+	version = "1.3",
 	ranks = {
 		["3772307869"] = "[🧸] Admin",
 		["4887258148"] = "[🔥] Developer",
