@@ -1,6 +1,6 @@
 -- If you are here, this is not a whitelist, nothing will happen if u try to "crack or bypass" this, its just the ranks lol
 return {
-	version = "1.3",
+	version = "1.4",
 	ranks = {
 		["3772307869"] = "[🍥] Developer",
 		["4887258148"] = "[🔥] Developer",
