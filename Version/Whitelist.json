@@ -1,0 +1,17 @@
+[
+    {
+        "userId": 3778231239,
+        "rank": "Premium",
+        "emoji": "⭐"
+    },
+    {
+        "userId": 7282899615,
+        "rank": "Mod",
+        "emoji": "🛡️"
+    },
+    {
+        "userId": 123456789,
+        "rank": "Developer",
+        "emoji": "👑"
+    }
+]
