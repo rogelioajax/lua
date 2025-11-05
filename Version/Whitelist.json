@@ -13,5 +13,10 @@
         "userId": 123456789,
         "rank": "Developer",
         "emoji": "👑"
+    },
+    {
+        "userId": 3023127650,
+        "rank": "Premium",
+        "emoji": "🎭"
     }
 ]
