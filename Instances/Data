@@ -1,0 +1,8 @@
+return {
+    version = "2.0",
+    lastupdate = "05/04/2026",
+    ranks = {
+        ["123456789"] = "[💞] Developer",
+        ["987654321"] = "[👑] Owner"
+    }
+}
