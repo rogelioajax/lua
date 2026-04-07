@@ -1,6 +1,6 @@
 return {
-    version = "2.0",
-    lastupdate = "05/04/2026",
+    version = "<font weight="SemiBold">2.0</font>",
+    lastupdate = "<font weight="SemiBold">05/04/2026</font>",
     ranks = {
         ["123456789"] = "[💞] Developer",
         ["10677295156"] = "[🦄] Tester"
